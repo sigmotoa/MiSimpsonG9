@@ -44,7 +44,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitStart"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -55,7 +54,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -66,7 +64,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -77,7 +74,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -88,7 +84,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -99,7 +94,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -110,7 +104,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -121,7 +114,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -132,7 +124,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -143,7 +134,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
                 android:adjustViewBounds="true"
-                android:background="@color/white"
                 android:padding="8dp"
                 android:scaleType="fitCenter"
                 android:src="@drawable/baseline_live_tv_24" />
@@ -156,7 +146,7 @@
 
     <ScrollView
         android:id="@+id/sc_detalles"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginVertical="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -181,7 +171,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:columnCount="2"
-                android:rowCount="2">
+                android:rowCount="2"
+
+                >
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
@@ -207,7 +199,7 @@
 
                     <ImageView
                         android:id="@+id/img_simpson_dettalle_1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:src="@drawable/twotone_people_outline_24" />
 
@@ -237,7 +229,7 @@
 
                     <ImageView
                         android:id="@+id/img_simpson_detalle_2"
-                        android:layout_width="wrap_content"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:src="@drawable/twotone_people_outline_24" />
 
