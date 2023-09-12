@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="royal_purple">#7768ae</color>
+    <color name="jade">#3bb273</color>
+    <color name="safron">#e1bc29</color>
+    <color name="indian_red">#e15554</color>
+    <color name="celestial_blue">#4d9de0</color>
+
+</resources>
